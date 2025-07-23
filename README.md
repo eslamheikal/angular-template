@@ -2,6 +2,8 @@
 
 A modern, feature-rich Angular 20 admin dashboard template built with PrimeNG components and Bootstrap 5. This template provides a solid foundation for building enterprise-level admin applications with a clean, responsive design and comprehensive UI components.
 
+image.png
+
 ## 🚀 Features
 
 - **Modern Angular 20** - Built with the latest Angular framework
