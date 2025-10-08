@@ -81,6 +81,10 @@ export class ConfirmService {
         );
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 936adaf186c79057ed2c6fc37805da59bab88197
     confirmPrint(
         acceptCallback: () => void, 
         message?: string
@@ -141,4 +145,8 @@ export class ConfirmService {
             'pi pi-arrow-left text-primary'
         );
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 936adaf186c79057ed2c6fc37805da59bab88197
 }

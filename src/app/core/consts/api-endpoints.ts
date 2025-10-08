@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 936adaf186c79057ed2c6fc37805da59bab88197
 export class ApiEndpoints {
     static readonly Generic = {
         Actions: {
@@ -19,6 +23,7 @@ export class ApiEndpoints {
         }
     };
 
+<<<<<<< HEAD
     static readonly COURSES = {
         Controller: 'courses',
         Actions: {
@@ -27,4 +32,6 @@ export class ApiEndpoints {
             Deactivate: (id: string | number) => `deactivate/${id}`,
         }
     };
+=======
+>>>>>>> 936adaf186c79057ed2c6fc37805da59bab88197
 }

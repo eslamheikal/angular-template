@@ -2,8 +2,13 @@ import { CommonModule } from '@angular/common';
 import { Component, Input, SimpleChanges, forwardRef, inject } from '@angular/core';
 import { ControlValueAccessor, FormControl, NG_VALUE_ACCESSOR, ReactiveFormsModule } from '@angular/forms';
 import { InputTextModule } from 'primeng/inputtext';
+<<<<<<< HEAD
 import { FormError } from '../form-error/form-error';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+=======
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { FormError } from '../form-error/form-error';
+>>>>>>> 936adaf186c79057ed2c6fc37805da59bab88197
 
 @Component({
   selector: 'input-label',

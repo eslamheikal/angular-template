@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "fe-app",
+=======
+  "name": "tahil",
+>>>>>>> 936adaf186c79057ed2c6fc37805da59bab88197
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

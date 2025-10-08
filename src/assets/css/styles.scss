@@ -1,7 +1,10 @@
 @use "./confirm-dialog.scss";
 
+<<<<<<< HEAD
 // Angular Calendar CSS
 @import "../../../node_modules/angular-calendar/css/angular-calendar.css";
+=======
+>>>>>>> 936adaf186c79057ed2c6fc37805da59bab88197
 
 html {
     height: 100%;
@@ -3491,9 +3494,6 @@ footer p {
     margin-bottom: 5px;
 }
 
-.card-chart .card-body {
-    padding: 8px;
-}
 
 .activity-feed {
     list-style: none;
@@ -3670,7 +3670,6 @@ footer p {
     right: 23px !important;
 }
 
-.card.card-chart,
 .card.comman-shadow {
     background: #fff;
     box-shadow: 0 0 31px rgba(44, 50, 63, 0.02);
@@ -3678,7 +3677,6 @@ footer p {
     border: 0;
 }
 
-.card.card-chart .card-header,
 .card.comman-shadow .card-header {
     border-radius: 15px 15px 0 0;
     border-bottom: 0;
@@ -3697,42 +3695,6 @@ footer p {
     font-size: 14px;
 }
 
-.chart-list-out {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    justify-content: end;
-    -webkit-justify-content: end;
-    -ms-flex-pack: end;
-    margin-bottom: 0;
-}
-
-.chart-list-out li {
-    margin-right: 10px;
-    color: #808191;
-    font-size: 11px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.chart-list-out li.star-menus {
-    margin-right: 0;
-}
-
-.chart-list-out span {
-    width: 9px;
-    height: 9px;
-    border-radius: 50px;
-    display: inline-block;
-    margin-right: 5px;
-}
 
 .circle-blue {
     background: var(--primary-color);
@@ -3746,9 +3708,6 @@ footer p {
     background: #ebebeb;
 }
 
-.chart-list-out.student-ellips {
-    margin-left: auto;
-}
 
 .star-student.table-striped tbody tr:nth-of-type(even) {
     background-color: #fafafa;
@@ -3875,25 +3834,6 @@ footer p {
     margin-bottom: 25px;
 }
 
-.calendar-events {
-    border: 1px solid transparent;
-    cursor: move;
-    padding: 10px 15px;
-}
-
-.calendar-events:hover {
-    border-color: #e9e9e9;
-    background-color: #fff;
-}
-
-.calendar-events i {
-    margin-right: 8px;
-}
-
-.calendar {
-    float: left;
-    margin-bottom: 0;
-}
 
 .fc-toolbar.fc-header-toolbar {
     margin-bottom: 1.5rem;
@@ -4090,24 +4030,6 @@ footer p {
     background-color: #fff;
 }
 
-.note-editor.note-frame {
-    border: 1px solid #ddd;
-    box-shadow: inherit;
-}
-
-.note-editor.note-frame .note-statusbar {
-    background-color: #fff;
-}
-
-.note-editor.note-frame.fullscreen {
-    top: 60px;
-}
-
-.note-editor.note-frame .btn-light {
-    background-color: #f9f9f9;
-    box-shadow: unset;
-    color: #333;
-}
 
 .mail-title {
     font-weight: 700;
@@ -4561,9 +4483,6 @@ table.table-inbox tbody tr.checked {
     background: var(--primary-color);
 }
 
-.bg-editor {
-    background: #70c4cf;
-}
 
 .bg-illustrator {
     background: #ffbf42;
@@ -4638,18 +4557,6 @@ table.table-inbox tbody tr.checked {
     margin-bottom: 25px;
 }
 
-.calendar-icon:after {
-    color: #344357;
-    content: "\f073";
-    display: block;
-    font-family: "font awesome 5 free";
-    font-size: 16px;
-    font-weight: 600;
-    margin: auto;
-    position: absolute;
-    right: 15px;
-    bottom: 10px;
-}
 
 .students-up-files label {
     font-size: 15px;
@@ -4975,111 +4882,6 @@ table.table-inbox tbody tr.checked {
     color: #b8b7ff;
 }
 
-.calendar-info {
-    border-top: 1px solid #eaeaea;
-}
-
-.calendar-details {
-    display: flex;
-    align-items: center;
-    padding-top: 20px;
-}
-
-.calendar-info p {
-    font-size: 12px;
-    font-weight: 500;
-    color: #777;
-    margin-bottom: 0;
-    margin-right: 10px;
-    flex: none;
-}
-
-.calendar-info .calendar-blue {
-    font-size: 12px;
-    font-weight: 500;
-    color: #333;
-    background: #d2efff;
-    margin-bottom: 0;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.calendar-info .calendar-violet {
-    font-size: 12px;
-    font-weight: 500;
-    color: #333;
-    background: #e2e2fe;
-    margin-bottom: 0;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.calendar-info .calendar-red {
-    font-size: 12px;
-    font-weight: 500;
-    color: #333;
-    background: #fde0d8;
-    margin-bottom: 0;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.calendar-info .calendar-orange {
-    font-size: 12px;
-    font-weight: 500;
-    color: #333;
-    background: #ffefcf;
-    margin-bottom: 0;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.calendar-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    position: relative;
-    width: 100%;
-}
-
-.calendar-box:before {
-    content: "";
-    position: absolute;
-    background: var(--primary-color);
-    width: 4px;
-    height: 100%;
-    border-radius: 25px;
-}
-
-.normal-bg:before {
-    background: var(--primary-color);
-}
-
-.break-bg:before {
-    background: #70c4cf;
-}
-
-.calendar-box span {
-    color: #888;
-    font-size: 12px;
-    font-weight: 400;
-    margin-left: auto;
-}
 
 .calandar-event-name h4 {
     font-size: 14px;
@@ -10982,18 +10784,11 @@ body[data-layout-mode="dark"] .alertify .ajs-footer .ajs-buttons .ajs-button.ajs
         margin: 10px 0;
     }
 
-    .chart-list-out span {
-        width: 5px;
-        height: 5px;
-    }
 
     .lesson-view-all a {
         font-size: 12px;
     }
 
-    .chart-list-out li {
-        margin-right: 5px;
-    }
 
     .search-student-btn .btn-primary {
         min-width: 120px;
@@ -11044,9 +10839,6 @@ body[data-layout-mode="dark"] .alertify .ajs-footer .ajs-buttons .ajs-button.ajs
         padding: 0.75rem 1.25rem;
     }
 
-    .card-chart .card-body {
-        padding: 5px;
-    }
 
     .page-header {
         margin-bottom: 0.9375rem;

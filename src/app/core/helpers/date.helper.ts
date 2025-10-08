@@ -2,6 +2,13 @@ import { formatDate } from "@angular/common";
 
 export class DateHelper {
 
+<<<<<<< HEAD
+=======
+  static toOldDatePicker(date: string | null | undefined): string | null {
+    return date ? formatDate(date, 'yyyy-MM-dd', 'en-US') : null;
+  }
+
+>>>>>>> 936adaf186c79057ed2c6fc37805da59bab88197
   static toDatePicker(date: string | null | undefined): Date | null {
     return date ? new Date(date) : null;
   }

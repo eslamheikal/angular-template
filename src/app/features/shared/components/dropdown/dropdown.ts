@@ -1,12 +1,16 @@
 import { Component, EventEmitter, forwardRef, inject, Input, Output, Renderer2, SimpleChanges } from '@angular/core';
 import { ControlValueAccessor, FormControl, FormsModule, NG_VALUE_ACCESSOR, ReactiveFormsModule } from '@angular/forms';
-import { DropdownProps } from '../../props/dropdown.props';
 import { debounceTime, distinctUntilChanged, Subject, Subscription, takeUntil } from 'rxjs';
 import { CommonModule } from '@angular/common';
 import { SelectModule } from 'primeng/select';
 import { MultiSelectModule } from 'primeng/multiselect';
+<<<<<<< HEAD
 import { FormError } from '../form-error/form-error';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+=======
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { DropdownProps } from '../../props/dropdown.props';
+>>>>>>> 936adaf186c79057ed2c6fc37805da59bab88197
 
 @Component({
   selector: 'dropdown',
