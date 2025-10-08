@@ -1,10 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-<<<<<<< HEAD
 import { Observable, of } from 'rxjs';
-=======
-import { Observable } from 'rxjs';
->>>>>>> 936adaf186c79057ed2c6fc37805da59bab88197
 import { ApiService } from './api.service';
 import { ApiEndpoints } from '../consts/api-endpoints';
 import { LoginResult } from '../models/login-result.model';

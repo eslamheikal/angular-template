@@ -1,18 +1,11 @@
 import { Component, inject } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
-<<<<<<< HEAD
 import { InputLabel } from '../../../shared/components/input-label/input-label';
-=======
->>>>>>> 936adaf186c79057ed2c6fc37805da59bab88197
 import { Router, RouterLink } from '@angular/router';
 import { ToastService } from '../../../shared/services/toast.service';
 import { LoaderService } from '../../../shared/services/loader.service';
 import { AuthApiService } from '../../../../core/services/auth-api.service';
-<<<<<<< HEAD
-=======
-import { InputLabel } from '../../../shared/components/input-label/input-label';
->>>>>>> 936adaf186c79057ed2c6fc37805da59bab88197
 
 @Component({
   selector: 'app-forget-password',

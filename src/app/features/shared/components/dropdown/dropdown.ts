@@ -4,13 +4,9 @@ import { debounceTime, distinctUntilChanged, Subject, Subscription, takeUntil } 
 import { CommonModule } from '@angular/common';
 import { SelectModule } from 'primeng/select';
 import { MultiSelectModule } from 'primeng/multiselect';
-<<<<<<< HEAD
 import { FormError } from '../form-error/form-error';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
-=======
-import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { DropdownProps } from '../../props/dropdown.props';
->>>>>>> 936adaf186c79057ed2c6fc37805da59bab88197
 
 @Component({
   selector: 'dropdown',
