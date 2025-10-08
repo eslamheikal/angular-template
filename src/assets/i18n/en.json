@@ -1,0 +1,504 @@
+{
+    "welcome": "Welcome to the app",
+    "appName": "Misk Academy",
+    "darAlforqan": "Dar Alforqan",
+    "profile": "Profile",
+    "logout": "Logout",
+    "auth": {
+        "loginTitle": "Welcome to Misk Academy",
+        "login": "Login",
+        "username": "User Name",
+        "password": "Password",
+        "register": "Register",
+        "forgotPassword": "Forgot Password?",
+        "rememberMe": "Remember Me",
+        "forgetPasswordTitle": "Forgot Password",
+        "forgetPasswordbtn": "Send",
+        "backToLogin": "Back to Login",
+        "loginSuccess": "Login successful",
+        "loginError": "Login failed. Please check your credentials.",
+        "forgetPasswordSuccess": "An email has been sent to reset your password"
+    },
+    "userRole": {
+        "admin": "Admin",
+        "teacher": "Teacher",
+        "student": "Student",
+        "parent": "Parent",
+        "employee": "Employee"
+    },
+    "gender": {
+        "male": "Male",
+        "female": "Female"
+    },
+    "days": {
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+    },
+    "months": {
+        "january": "January",
+        "february": "February",
+        "march": "March",
+        "april": "April",
+        "may": "May",
+        "june": "June",
+        "july": "July",
+        "august": "August",
+        "september": "September",
+        "october": "October",
+        "november": "November",
+        "december": "December"
+    },
+    "attendanceStatus": {
+        "present": "Present",
+        "late": "Late",
+        "absent": "Absent"
+    },
+    "sessionStatus": {
+        "scheduled": "Scheduled",
+        "completed": "Completed",
+        "cancelled": "Cancelled",
+        "unknown": "Unknown"
+    },
+    "performance": {
+        "excellent": "Excellent",
+        "good": "Good",
+        "average": "Average",
+        "belowAverage": "Below Average",
+        "poor": "Poor"
+    },
+    "scheduleStatus": {
+        "new": "New",
+        "active": "Active",
+        "cancelled": "Cancelled",
+        "completed": "Completed"
+    },
+    "toast": {
+        "success": "Success",
+        "info": "Info",
+        "warning": "Warning",
+        "error": "Error",
+        "generalError": "Something went wrong"
+    },
+    "sidebar": {
+        "mainMenu": "Main Menu",
+        "dashboard": "Dashboard",
+        "timeTable": "Time Table",
+        "schedules": "Schedules",
+        "sessions": "Lectures",
+        "attendance": "Attendance",
+        "settings": "Settings"
+    },
+    "shared": {
+        "grid": {
+            "searchBy": "Search by",
+            "clearFilter": "Clear Filter",
+            "noData": "No data available",
+            "delete": "Delete",
+            "edit": "Edit",
+            "view": "View"
+        },
+        "buttons": {
+            "save": "Save",
+            "cancel": "Cancel",
+            "add": "Add",
+            "delete": "Delete",
+            "edit": "Edit",
+            "view": "View",
+            "download": "Download",
+            "activate": "Activate",
+            "deactivate": "Deactivate",
+            "refresh": "Refresh",
+            "search": "Search",
+            "exportPdf": "PDF"
+        },
+        "dialogs": {
+            "deleteConfirmation": "Are you sure you want to delete this item?",
+            "activateConfirmation": "Are you sure you want to activate this item?",
+            "deactivateConfirmation": "Are you sure you want to deactivate this item?",
+            "printConfirmation": "Are you sure you want to print this item?",
+            "downloadConfirmation": "Are you sure you want to download this item?",
+            "viewConfirmation": "Are you sure you want to view this item?",
+            "editConfirmation": "Are you sure you want to edit this item?",
+            "changeImageConfirmation": "Are you sure you want to change the image of this item?",
+            "unsavedChanges": "Are you sure you want to leave without saving your changes?",
+            "backConfirmation": "Are you sure you want to go back?",
+            "yes": "Yes",
+            "no": "No"
+        },
+        "labels": {
+            "name": "Name",
+            "gender": "Gender",
+            "phoneNumber": "Phone Number",
+            "email": "Email",
+            "password": "Password",
+            "confirmPassword": "Confirm Password",
+            "birthDate": "Birth Date",
+            "joinedDate": "Joined Date",
+            "description": "Description",
+            "capacity": "Capacity",
+            "numberOfStudents": "Number of Students",
+            "capacityStatus": "Capacity Status",
+            "capacityPercentage": "Capacity Percentage",
+            "numberOfTeachers": "Number of Teachers",
+            "status": "Status",
+            "years": "Years",
+            "year": "Year",
+            "day": "Day",
+            "date": "Date",
+            "startTime": "Start Time",
+            "endTime": "End Time",
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "notes": "Notes",
+            "notesPlaceholder": "Add notes...",
+            "course": "Course",
+            "group": "Group",
+            "room": "Room",
+            "studentName": "Student Name",
+            "studentCode": "Student Code",
+            "teacherCode": "Teacher Code",
+            "coursesNumber": "Courses Number",
+            "time": "Time",
+            "total": "Total",
+            "exportedOn": "Exported On",
+            "printedOn": "Printed On",
+            "attendancePercentage": "Attendance Percentage",
+            "month": "Month",
+            "numberOfSessions": "Number of Sessions",
+            "dailyAttendance": "Daily Attendance",
+            "education": "Education",
+            "qualifications": "Qualifications",
+            "experience": "Experience",
+            "teacherSignature": "Teacher Signature",
+            "dateSigned": "Date Signed",
+            "comingSoon": "More details coming soon...",
+            "allMonths": "All Months",
+            "dailySchedule": "Daily Schedule",
+            "comment": "Comment",
+            "attendanceReport": "Attendance Report",
+            "attendanceSummary": "Attendance Summary",
+            "monthlyBreakdown": "Monthly Breakdown",
+            "performanceAnalysis": "Performance Analysis",
+            "bestMonth": "Best Month",
+            "worstMonth": "Worst Month",
+            "overallPerformance": "Overall Performance",
+            "markAllPresent": "All",
+            "markAllLate": "All",
+            "markAllAbsent": "All",
+            "salary": "Salary",
+            "monthly": "Monthly",
+            "daily": "Daily"
+        },
+        "placeholders": {
+            "selectMonthPlaceholder": "Select Month",
+            "selectYearPlaceholder": "Select Year"
+        },
+        "validation": {
+            "passwordMismatch": "Password and confirm password do not match",
+            "requiredDropdown": "Please select {{field}} from the list",
+            "minLength": "{{field}} must be longer than {{length}} characters",
+            "emailInvalid": "{{field}} must be a valid email",
+            "required": "{{field}} is required"
+        },
+        "dropdown": {
+            "selectHere": "Select here",
+            "noResults": "No results found",
+            "all": "All",
+            "itemsCount": "{{count}} items",
+            "typeHere": "Type here"
+        },
+        "switch": {
+            "yes": "Yes",
+            "no": "No"
+        },
+        "timePicker": {
+            "selectTime": "Select time"
+        },
+        "fileUpload": {
+            "chooseFile": "Choose file"
+        },
+        "datePicker": {
+            "selectDate": "Select date"
+        },
+        "badges": {
+            "full": "Full",
+            "almostFull": "Almost Full",
+            "halfFull": "Half Full",
+            "available": "Available",
+            "active": "Active",
+            "inactive": "Inactive"
+        },
+        "table": {
+            "showing": "Showing",
+            "to": "to",
+            "of": "of",
+            "entries": "entries",
+            "noData": "No data available"
+        },
+        "noData": {
+            "noQualifications": "No qualifications",
+            "noExperience": "No experience",
+            "noCourses": "No courses",
+            "noGroups": "No groups",
+            "noStudents": "No students",
+            "noTeachers": "No teachers",
+            "noAttachments": "No attachments",
+            "noWeeklySchedule": "No weekly schedule",
+            "noAttendances": "No attendances",
+            "noClasses": "No classes scheduled for this day",
+            "noDailySchedule": "No daily schedule available",
+            "noFeedback": "No feedback",
+            "noFinances": "No finances"
+        },
+        "messages": {
+            "savedSuccessfully": "Saved successfully",
+            "updatedSuccessfully": "Updated successfully",
+            "deletedSuccessfully": "Deleted successfully",
+            "qualificationsSaveSuccess": "Qualifications saved successfully",
+            "experienceSaveSuccess": "Experience saved successfully",
+            "attachmentUploadSuccess": "Attachment uploaded successfully"
+        },
+        "pdf": {
+            "success": "PDF exported successfully",
+            "error": {
+                "general": "Error exporting PDF",
+                "noContent": "No content available for PDF export"
+            }
+        },
+        "tabs": {
+            "qualifications": "Qualifications",
+            "schedule": "Schedule",
+            "education": "Education",
+            "courses": "Courses",
+            "groups": "Groups",
+            "students": "Students",
+            "personalInfo": "Personal Info",
+            "attachments": "Attachments",
+            "attendance": "Attendance",
+            "teacherFeedback": "Feedback",
+            "finances": "Finances"
+        }
+    },
+    "courses": {
+        "all": "Courses",
+        "one": "Course",
+        "formTitle": "Course Data",
+        "courseName": "Course Name",
+        "activateSuccess": "Course activated successfully",
+        "deactivateSuccess": "Course deactivated successfully",
+        "saveSuccess": "Course saved successfully",
+        "updateSuccess": "Course updated successfully",
+        "deleteSuccess": "Course deleted successfully",
+        "teachersUpdatedSuccess": "Teachers updated successfully",
+        "notFound": "Course not found",
+        "profile": {
+            "courseData": "Course Data",
+            "courseDetails": "Course Details",
+            "teachersInfo": "This course has {{count}} teacher(s)",
+            "teachersComingSoon": "Detailed teacher list will be available soon"
+        }
+    },
+    "rooms": {
+        "all": "Rooms",
+        "one": "Room",
+        "formTitle": "Room Data",
+        "saveSuccess": "Room saved successfully",
+        "updateSuccess": "Room updated successfully",
+        "activateSuccess": "Room activated successfully",
+        "deactivateSuccess": "Room deactivated successfully",
+        "deleteSuccess": "Room deleted successfully"
+    },
+    "teachers": {
+        "all": "Teachers",
+        "one": "Teacher",
+        "formTitle": "Teacher Data",
+        "teacherName": "Teacher Name",
+        "saveSuccess": "Teacher data saved successfully",
+        "updateSuccess": "Teacher data updated successfully",
+        "activateSuccess": "Teacher data activated successfully",
+        "deactivateSuccess": "Teacher data deactivated successfully",
+        "deleteSuccess": "Teacher data deleted successfully",
+        "imageUpdateSuccess": "Teacher image updated successfully",
+        "coursesUpdatedSuccess": "Courses updated successfully",
+        "notFound": "No teacher information found"
+    },
+    "groups": {
+        "all": "Groups",
+        "one": "Group",
+        "formTitle": "Group Data",
+        "groupName": "Group Name",
+        "saveSuccess": "Group saved successfully",
+        "updateSuccess": "Group updated successfully",
+        "activateSuccess": "Group activated successfully",
+        "deactivateSuccess": "Group deactivated successfully",
+        "deleteSuccess": "Group deleted successfully",
+        "profile": {
+            "groupData": "Group Data",
+            "studentsList": "Students List",
+            "weeklySchedule": "Weekly Schedule",
+            "groupNotFoundMessage": "The requested group was not found"
+        },
+        "studentsUpdated": "Students updated successfully",
+        "notFound": "Group not found"
+    },
+    "students": {
+        "all": "Students",
+        "one": "Student",
+        "formTitle": "Student Data",
+        "saveSuccess": "Student data saved successfully",
+        "updateSuccess": "Student data updated successfully",
+        "activateSuccess": "Student data activated successfully",
+        "deactivateSuccess": "Student data deactivated successfully",
+        "deleteSuccess": "Student data deleted successfully",
+        "notFound": "No student information found",
+        "imageUpdateSuccess": "Student image updated successfully",
+        "groupsUpdateSuccess": "Student groups updated successfully"
+    },
+    "employees": {
+        "all": "Employees",
+        "one": "Employee",
+        "formTitle": "Employee Data",
+        "saveSuccess": "Employee data saved successfully",
+        "updateSuccess": "Employee data updated successfully",
+        "activateSuccess": "Employee data activated successfully",
+        "deactivateSuccess": "Employee data deactivated successfully",
+        "deleteSuccess": "Employee data deleted successfully"
+    },
+    "errorPages": {
+        "notFound": {
+            "title": "Page Not Found",
+            "message": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+            "goHome": "Go to Home",
+            "goBack": "Go Back"
+        },
+        "accessDenied": {
+            "title": "Access Denied",
+            "message": "You don't have permission to access this page. Please contact your administrator if you believe this is an error.",
+            "goHome": "Go to Home",
+            "goBack": "Go Back",
+            "contactAdmin": "Contact Admin",
+            "contactAdminMessage": "Please contact your system administrator for access permissions."
+        },
+        "serverError": {
+            "title": "Server Error",
+            "message": "Something went wrong on our end. We're working to fix the problem. Please try again later.",
+            "retry": "Try Again",
+            "goHome": "Go to Home",
+            "contactSupport": "Contact Support",
+            "contactSupportMessage": "Please contact technical support for assistance."
+        },
+        "serviceUnavailable": {
+            "title": "Service Unavailable",
+            "message": "The service is temporarily unavailable due to maintenance or high traffic. Please try again later.",
+            "retry": "Try Again",
+            "goHome": "Go to Home",
+            "contactSupport": "Contact Support",
+            "contactSupportMessage": "Please contact technical support for assistance."
+        },
+        "gatewayTimeout": {
+            "title": "Gateway Timeout",
+            "message": "The server took too long to respond. This might be due to high traffic or server issues. Please try again.",
+            "retry": "Try Again",
+            "goHome": "Go to Home",
+            "contactSupport": "Contact Support",
+            "contactSupportMessage": "Please contact technical support for assistance."
+        }
+    },
+    "schedules": {
+        "all": "Schedules",
+        "one": "Schedule",
+        "formTitle": "Schedule Data",
+        "information": "Schedule Information",
+        "basicInfo": "Basic Information",
+        "scheduleDetails": "Schedule Details",
+        "saveSuccess": "Schedule saved successfully",
+        "updateSuccess": "Schedule updated successfully",
+        "deleteSuccess": "Schedule deleted successfully",
+        "activateSuccess": "Schedule activated successfully",
+        "deactivateSuccess": "Schedule deactivated successfully",
+        "notFound": "Schedule not found",
+        "confirm": {
+            "cancelUpdate": "Are you sure you want to cancel this schedule?"
+        }
+    },
+    "calendar": {
+        "month": "Month",
+        "week": "Week",
+        "day": "Day",
+        "previous": "Previous",
+        "next": "Next",
+        "today": "Today",
+        "todaySchedule": "Today's Schedule",
+        "tomorrowSchedule": "Tomorrow's Schedule",
+        "mathClass": "Math Class"
+    },
+    "sessions": {
+        "all": "Daily Schedule",
+        "formTitle": "Update Session",
+        "search": {
+            "placeholder": "Search sessions...",
+            "dialogTitle": "Search Sessions",
+            "selectCourse": "Select Course",
+            "selectGroup": "Select Group",
+            "selectRoom": "Select Room",
+            "selectStatus": "Select Status",
+            "atLeastOneFieldRequired": "At least one field is required",
+            "activeFilters": "Active Filters",
+            "clearAll": "Clear All",
+            "clearAllFilters": "Clear all filters",
+            "removeFilter": "Remove filter"
+        },
+        "list": {
+            "title": "Daily Schedule",
+            "subtitle": "View and manage all daily schedule",
+            "noSessions": "No schedule found"
+        },
+        "unknown": {
+            "course": "Unknown Course"
+        },
+        "actions": {
+            "recordAttendance": "Record Attendance",
+            "markCompleted": "Completed",
+            "reschedule": "Reschedule"
+        },
+        "confirm": {
+            "recordAttendance": "Are you sure you want to record attendance for this session?",
+            "markCompleted": "Are you sure you want to mark this session as completed?",
+            "reschedule": "Are you sure you want to reschedule this session?",
+            "cancel": "Are you sure you want to cancel this session?",
+            "edit": "Are you sure you want to edit this session?",
+            "refresh": "Are you sure you want to refresh the schedule?",
+            "delete": "Are you sure you want to delete this session?"
+        },
+        "cancelledSuccessfully": "Session cancelled successfully",
+        "updatedSuccessfully": "Session updated successfully",
+        "deletedSuccessfully": "Session deleted successfully"
+    },
+    "attendance": {
+        "all": "Attendance",
+        "record": "Record Attendance",
+        "recordAttendance": "Record Attendance",
+        "table": {
+            "studentName": "Student Name",
+            "noStudents": "No students found for this session"
+        },
+        "summary": {
+            "total": "Total Students"
+        },
+        "list": {
+            "title": "Attendance Records",
+            "subtitle": "View and manage attendance records for all sessions",
+            "noRecords": "No attendance records found"
+        },
+        "confirm": {
+            "cancel": "Are you sure you want to cancel this session?",
+            "save": "Are you sure you want to save this session?"
+        },
+        "updateSuccess": "Attendance updated successfully"
+    }
+}
