@@ -284,7 +284,6 @@
             "finances": "Finances"
         }
     },
-<<<<<<< HEAD
     "courses": {
         "all": "Courses",
         "one": "Course",
@@ -370,8 +369,6 @@
         "deactivateSuccess": "Employee data deactivated successfully",
         "deleteSuccess": "Employee data deleted successfully"
     },
-=======
->>>>>>> 936adaf186c79057ed2c6fc37805da59bab88197
     "errorPages": {
         "notFound": {
             "title": "Page Not Found",
@@ -411,7 +408,6 @@
             "contactSupport": "Contact Support",
             "contactSupportMessage": "Please contact technical support for assistance."
         }
-<<<<<<< HEAD
     },
     "schedules": {
         "all": "Schedules",
@@ -504,7 +500,5 @@
             "save": "Are you sure you want to save this session?"
         },
         "updateSuccess": "Attendance updated successfully"
-=======
->>>>>>> 936adaf186c79057ed2c6fc37805da59bab88197
     }
 }
